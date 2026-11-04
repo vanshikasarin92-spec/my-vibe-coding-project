@@ -15,9 +15,9 @@ _____
 
 ## The build
 
-- **What I built:** _____
+- **What I built:** Digital Accessibility SharePoint site
 - **Tool used:** Lovable / v0 / Cursor / Bolt / Replit
-- **Shareable link:** _____
+- **Shareable link:** https://claude.ai/artifact/52eR4LQ8nus28Jffhncdf7
 
 ## Show & Swap read
 
