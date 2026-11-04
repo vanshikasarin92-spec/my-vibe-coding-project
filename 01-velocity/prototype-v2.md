@@ -17,7 +17,7 @@ _____
 
 ## v2 build
 
-- **v2 shareable link:** _____
+- **v2 shareable link:** https://claude.ai/artifact/52eR4LQ8nus28Jffhncdf7#standards
 - **Before → after:** _____
 - **What each pass changed:** _____
 
