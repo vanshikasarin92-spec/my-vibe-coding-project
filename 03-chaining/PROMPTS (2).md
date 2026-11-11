@@ -50,11 +50,11 @@ Don't change anything else in the project or touch the underlying logic.
 
 _Where a single mega-prompt failed and chaining fixed it._
 
-Leaving via "Back to SharePoint" counted as a first click, so a bounce looked like engagement → excluded bounce, exit and load_failed from first-click timing.
-The placeholder label was the loudest text on the role picker, repeated on all six cards → showed it once above the grid.
-The grid's column count varied with screen width and could leave orphan cards → fixed 3 × 2 grid, one column on phones.
-The return screen offered "Finish it now" and "Do this next" for the same action → one "Do this next" card.
-The error message said "still below" while the requirements link sat in the side column → moved the link under "Do this next".
-The return-visit test didn't actually reload the page (only the hash changed) → reran it with a real reload.
-The first prompt had no screenshot and an empty content list → built with real published data and said what was missing.
+- Leaving via "Back to SharePoint" counted as a first click, so a bounce looked like engagement → excluded bounce, exit and load_failed from -first-click timing.
+- The placeholder label was the loudest text on the role picker, repeated on all six cards → showed it once above the grid.
+- The grid's column count varied with screen width and could leave orphan cards → fixed 3 × 2 grid, one column on phones.
+- The return screen offered "Finish it now" and "Do this next" for the same action → one "Do this next" card.
+- The error message said "still below" while the requirements link sat in the side column → moved the link under "Do this next".
+- The return-visit test didn't actually reload the page (only the hash changed) → reran it with a real reload.
+- The first prompt had no screenshot and an empty content list → built with real published data and said what was missing.
 
