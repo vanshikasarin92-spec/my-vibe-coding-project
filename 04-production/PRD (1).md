@@ -8,30 +8,7 @@ _What user problem does this solve? Tie to the validated hypothesis._
 
 The hub sorts accessibility content by source (standards, news, checklists), not by the job people come to do. So practitioners skim it once, leave, and accessibility gets checked late, at QA or audit, instead of in the story.Hypothesis under test (role-first): if the hub opens on "what's your role?" and answers with the requirements that apply to that role, the deadline, and one action to do this sprint, then more people will act on it and come back.
 Status: designed, not yet validated. The clickable prototype (control vs role-first treatment) and the moderated test plan exist. No sessions have run. Every baseline below is a placeholder from the brief, to be replaced with measured numbers.
-Measure
-Baseline (placeholder)
-Target (placeholder)
-Bounce on first visit
-[80%]
-Lower than control
-Participants who pick a role and click the recommended action
-—
-[70%]
-Return within 14 days
-[2%]
-[5%]
-Time to find the requirement for their role
-[90 seconds]
-Under [15] seconds
-Clicks before reaching a requirement
-[7]
-Fewer than control
-Stories with accessibility criteria by [Q3]
-[50%]
-Higher (not measured in the test)
-Accessibility defects found late per release
-[10]
-Lower (not measured in the test)
+
 Kill switch: if fewer than [X%] of participants pick a role and click the action, or time to requirement doesn't beat the control, drop role-first and test task-based entry next. The [X%] threshold is still to be set.
 Why now: the Accessible Canada Regulations' digital amendments (registered 5 Dec 2025) set dates of 5 Dec 2027 and 5 Dec 2028, and the Canada Post Accessibility Plan 2026–2028 commits to moving from 67% to 97% of products tested with people with disabilities.
 
