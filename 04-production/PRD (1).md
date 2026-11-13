@@ -1,3 +1,5 @@
+https://claude.ai/artifact/TLMMJC3XiiDMA4KD1jdsby#acd0c289-9130
+
 # Living PRD
 
 > Module 4 · Production Specs. Refactor for readability; extract a living PRD that stays true as the build evolves.
