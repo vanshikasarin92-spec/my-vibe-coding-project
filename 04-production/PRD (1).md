@@ -63,51 +63,23 @@ Why now: the Accessible Canada Regulations' digital amendments (registered 5 Dec
 _What gets stored, what gets tracked._
 
 Today, events exist only in the prototype's on-screen moderator log, for one session. The hub collects nothing. Every metric in Problem needs an analytics source before it can be measured outside moderated sessions.Events (prototype)
-Event
-Fires when
-Feeds
-screen_view
-Any screen shows
-Time to requirement, funnel
-role_picked
-A role card is chosen
-Role + action rate
-requirement_opened / requirement_closed
-A criterion is expanded or collapsed
-Time to requirement
-do_now_click
-The "Do this now" button is used
-Role + action rate (primary)
-copied
-Action text is copied
-Action depth
-action_done
-"Do this now" is marked done
-Action completion
-do_next_click / next_action_done
-"Do this next" is used or marked done
-Action completion
-view_requirements
-"See everything that applies to you" is used
-Depth
-language_switch
-EN/FR is changed
-FR usage
-change_role / back
-Role is changed, or user goes back to the picker
-Picker clarity
-resume_last_action
-An unfinished action is resumed on return
-Return value
-load_failed / retry
-What's new fails to load, or Try again is used
-Reliability
-bounce / exit
-User leaves without a click, or leaves after clicks
-Bounce
-nav_click, tile_click, checklist_opened
-Control board only: menu, tile or checklist used
-Control comparison
+|Event|
+|Fires when|
+|Feeds|
+screen_view : Any screen shows- Time to requirement, funnel
+role_picked: A role card is chosen- Role + action rate
+requirement_opened / requirement_closed: A criterion is expanded or collapsed-Time to requirement
+do_now_click: The "Do this now" button is used- Role + action rate (primary)
+copied: Action text is copied- Action depth
+action_done: "Do this now" is marked done- Action completion
+do_next_click / next_action_done: "Do this next" is used or marked done-Action completion
+view_requirements: "See everything that applies to you" is used-Depth
+language_switch: EN/FR is changed- FR usage
+change_role / back: Role is changed, or user goes back to the picker- Picker clarity
+resume_last_action: An unfinished action is resumed on return-Return value
+load_failed / retry: What's new fails to load, or Try again is used-Reliability
+bounce / exit: User leaves without a click, or leaves after clicks- Bounce
+nav_click, tile_click, checklist_opened: Control board only: menu, tile or checklist used- Control comparison
 bounce and load_failed are passive. They never count as the first click.
 Metric definitions
 • Role + action rate: sessions with role_picked and then do_now_click, divided by all sessions.
@@ -139,13 +111,13 @@ Content sources: role content and copy in src/data/roles.js. What's new comes fr
 ## Open questions
 
 Open questions
-[ ] Which ACA date applies to Canada Post's web products: 5 Dec 2027 or 5 Dec 2028? Confirm with Legal and the Accessibility office.
-[ ] What are the real baselines for bounce, clicks, time to requirement, return rate, stories with criteria and late defects?
-[ ] What is the [X%] kill threshold for the role + action rate?
-[ ] Which analytics source will measure bounce and 14-day return (SharePoint usage analytics, or a tool on the static host)?
-[ ] Who are the moderated test participants, and how many per role? We need real quotes to replace the bracketed placeholders.
-[ ] Who will review the French copy, and by when?
-[ ] Where will the hub be hosted: an internal static host linked from SharePoint, or an SPFx web part?
-[ ] Is a cross-device profile (sign-in) worth building, or is a per-browser profile enough?
-[ ] Who owns "what's new", and should it become a live feed instead of a hand-edited news file?
-[ ] Which stub roles (QA, Procurement, Team lead) should get full prototype views before testing, if any?
+• Which ACA date applies to Canada Post's web products: 5 Dec 2027 or 5 Dec 2028? Confirm with Legal and the Accessibility office.
+• What are the real baselines for bounce, clicks, time to requirement, return rate, stories with criteria and late defects?
+• What is the [X%] kill threshold for the role + action rate?
+• Which analytics source will measure bounce and 14-day return (SharePoint usage analytics, or a tool on the static host)?
+• Who are the moderated test participants, and how many per role? We need real quotes to replace the bracketed placeholders.
+• Who will review the French copy, and by when?
+• Where will the hub be hosted: an internal static host linked from SharePoint, or an SPFx web part?
+• Is a cross-device profile (sign-in) worth building, or is a per-browser profile enough?
+• Who owns "what's new", and should it become a live feed instead of a hand-edited news file?
+• Which stub roles (QA, Procurement, Team lead) should get full prototype views before testing, if any?
