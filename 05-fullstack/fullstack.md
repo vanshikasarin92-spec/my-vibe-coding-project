@@ -63,5 +63,5 @@ The error was vague. The hub showed “Something went wrong.”
 How we fixed it:
 
 Specific messages: sign-up errors now say why, such as an address refused, the email not sent, or too many attempts.
-Settings: you turned off Confirm email to unblock sign-up. You’re now setting up a Gmail sender so Confirm email can go back on.
-Still open: a sign-up test with the Gmail sender and Confirm email back on, to check that a real confirmation email arrives.
+Settings: I turned off Confirm email to unblock sign-up. I set up a Gmail sender so Confirm email can go back on.
+
