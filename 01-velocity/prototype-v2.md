@@ -22,11 +22,13 @@ _____
 - **Before → after:** Before: a role picker that answered with a static summary, in generic styling, with decorative chips and typed-in figures.
 After: the hub looks and behaves like a Canada Post Mercury product. Picking a role starts a working loop: what applies to you → by when (a live countdown) → Do this now steps → mark it done → Do this next → Welcome back on your return, with what's new since your last visit.
 - **What each pass changed:** 
+
 Design Match (Mercury):
 Look: Mercury colours, type scale and spacing.
 Accessible by default: colour contrast that passes WCAG, with the ratios shown in the footer, and visible focus states.
 Status labels on requirements: "WCAG 2.1 · required", "WCAG 2.2 · our target", "EN 301 549 · required".
 Language: English and French throughout.
+
 Add Interactivity:
 The role loop: role picker → steps for that role.
 Copy and mark done: copy the snippet or criteria, then "I've added it" to mark it done.
