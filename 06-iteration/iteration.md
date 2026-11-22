@@ -24,7 +24,7 @@ _Analytics snapshot: visitors 1; page views 36; views per visit 36; duration 9m 
 | _____ | _____ | _____ |
 
 ## Peer feedback
-
+1. The colour scheme can be better- remove red colour, 2.  the chips- ACA standard, build target etc. on the header seems interactive but aren't so better to remove them, 3. the sign in flow should be a separate landing screen.
 _____
 
 ## The recommendation
