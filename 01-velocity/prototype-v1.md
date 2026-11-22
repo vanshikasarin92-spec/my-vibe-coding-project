@@ -17,11 +17,11 @@ _____
 ## The build
 
 - **What I built:** Digital Accessibility SharePoint site
-- What I built: A role-based Digital Accessibility hub for Design & Engineering: a replacement for the source-organized SharePoint hub, with "What's your role?" as the first screen.
+A role-based Digital Accessibility hub for Design & Engineering: a replacement for the source-organized SharePoint hub, with "What's your role?" as the first screen.
 - **Tool used:** Lovable / v0 / Cursor / Bolt / Replit
-- Tool used: Claude
-- **Shareable link:** https://claude.ai/artifact/52eR4LQ8nus28Jffhncdf7
-- https://claude.ai/artifact/52eR4LQ8nus28Jffhncdf7
+ Claude
+- **Shareable link:** 
+https://claude.ai/artifact/52eR4LQ8nus28Jffhncdf7
 
 ## Show & Swap read
 
