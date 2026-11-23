@@ -16,4 +16,11 @@ On the first click. Every link I tried opened the same page saying there is no c
 
 ## What I'll change as a result
 
-_____
+"Every link opened the same 'no content yet' page" → every path now leads to real content. The control screens in the canvas are deliberately thin, since they stand in for the current hub. But the built hub (https://vanshikasarin92-spec.github.io/my-vibe-coding-project-website/) has real content behind all 12 sections, and each role → "Do this now" path ends in a real action: steps, a snippet or criteria to copy, and a ticket to paste into Jira. No click ends on an empty page.
+
+"The moderator log stays on screen, so I'm watching myself being measured" → measuring moved out of sight.
+In the test canvas: the log can now be hidden with the showLog setting, so participants run sessions without it. The moderator watches it separately.
+In the built hub: no log at all. Usage is recorded in the background and shown on a separate Analytics page that participants never see.
+Lesson: a visible test turns a product test into a usability lab, and people act differently.
+
+"The page says it has no single recommended action" gave away the hypothesis → test framing stays off participant screens. My partner described the hypothesis almost word for word, because the screen said what was being tested. Test plans and kill criteria now live in the moderator's materials only, so participants react to the product, not the experiment.
